@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Monolith</title>
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/heroes/">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <style>
+     body{
+        font-family: 'Poppins', sans-serif;
+     }
+     
+    .logo-slider a img{
+        width: 50%;
+        height: 30px;
+        margin: 0 20px;
+        display: inline-block;
+    }
+
+    .monolith-text{
+        color: #ff5a5f;
+    }
+
+    .btn-monolith-primary{
+        background-color: #ff5a5f;
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 14px;
+    }
+
+    .btn-monolith-primary:hover{
+        background-color: #f7676c;
+        color: #fff;
+    }
+
+    .btn-monolith-primary-outline{
+        color: #fff;
+        background: rgba(255,255,255,0.0);
+        text-transform: uppercase;
+        border: 3px solid #ff5a5f;
+        font-size: 14px;
+    }
+
+    .btn-monolith-primary-outline:hover{
+        background-color: #ff5a5f;
+        color: #fff;
+    }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+    
+    <!-- Custom styles for this template -->
+    <link href="heroes.css" rel="stylesheet">
+  </head>
+  <body>
+    
+<main>
+    <div class="p-5 bg-image" style="background-image: url('img/Group_39403_min.png');">
+        <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);">
+            <div class="text-secondary px-4 py-2">
+                <div class="container col-xxl-8 px-4 py-2">
+                  <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+                    <div class="col-10 col-sm-8 col-lg-6">
+                      &nbsp;
+                    </div>
+                    <div class="col-lg-6">
+                      <h6 class="fw-bold text-body-emphasis lh-1 mb-3 monolith-text">Monolith</h6>
+                      <h1 class="display-6 fw-bold text-body-emphasis lh-1 mb-3 text-white">Use AI software to test less and learn more.</h1>
+                      <p class="fw-bold small text-white">Spend less time running expensive, repetitive tests and more time learning from your engineering data to predict the exact tests to run.</p>
+                      <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                        <button type="button" class="btn btn-monolith-primary btn-lg px-4 me-md-2" style="border-radius: 30px;">Request Demo</button>
+                        <button type="button" class="btn btn-monolith-primary-outline btn-lg px-4" style="border-radius: 30px;">Speak to our team</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-lg-12 py-4">
+                        <div class="logo-slider">
+                            <div class="item"><a href="#"><img src="img/BMW_logo_(gray)_4_w_66.webp" alt="" style="width: 40px; height: 40px;"></a></div>
+                            <div class="item"><a href="#"><img src="img/bae-systems_logo.svg" alt=""></a></div>
+                            <div class="item"><a href="#"><img src="img/mercedes-benz_logo.webp" alt=""></a></div>
+                            <div class="item"><a href="#"><img src="img/honda_logo.svg" alt=""></a></div>
+                            <div class="item"><a href="#"><img src="img/Siemens_logo.svg" alt=""></a></div>
+                            <div class="item"><a href="#"><img src="img/honeywell-1-logo-black-and-white.webp" alt=""></a></div>
+                            <div class="item"><a href="#"><img src="img/Kautex_Textron_Logo_Bw-1.webp" alt=""></a></div>
+                            <div class="item"><a href="#"><img src="img/michelin-tire-logo.webp" alt=""></a></div>
+                            <div class="item"><a href="#"><img src="img/Aptar Logo.svg" alt=""></a></div>
+                            <div class="item"><a href="#"><img src="img/JOTA_logo.webp" alt=""></a></div>
+                        </div>
+                    </div>
+                  </div>  
+                </div>
+              </div>        
+        </div>
+    </div>
+</main>
+
+
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script>
+        $('.logo-slider').slick({
+            slidesToShow:5,
+            slidesToScroll:1,
+            dots:false,
+            arrows:false,
+            autoplay:true,
+            autoplaySpeed:2000,
+            infinite:true
+        });
+    </script>
+
+      
+  </body>
+</html>
